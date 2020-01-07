@@ -1,0 +1,100 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#34495e), to(#082848)) fixed;
+}
+
+.login-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 45rem;
+  height: 45rem;
+  padding: 4rem;
+  background: #191919;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  animation: moveInButtom 1s ease-out;
+}
+
+input {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1.5rem 6rem;
+  display: inline-block;
+  border-radius: 16rem;
+  transition: all .2s;
+  position: relative;
+  background: none;
+  text-align: center;
+  margin: 2rem auto;
+  border: 0.2rem solid #10abff;
+  transition: 0.2s; 
+  outline: none;
+  color: white;
+  animation: moveInButtom 1s ease-out;
+}
+
+input:focus,
+input:hover {
+  padding: 1.5rem 10rem;
+  /* width: 30rem; */
+  border-color: #1beabd;
+}
+
+#btn {
+  border:0;
+  background: none;
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  border: 0.2rem solid #1beabd;
+  padding: 1.4rem 4rem;
+  outline: none;
+  color: white;
+  border-radius: 2.4rem;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+#btn:hover {
+  border: none;
+  width: 13rem;
+  /* margin: 1.6rem 4.2rem; */
+  background: linear-gradient(
+    to right bottom ,
+    #10abff,
+    #1beabd);
+}
+
+
+@keyframes moveInButtom {
+  0% {
+      opacity: 0;
+      transform: translateY(3rem);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
