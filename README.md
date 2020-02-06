@@ -1,6 +1,6 @@
 # Login_page
 
-animated login page project
+simple css animated login page project
 
 
-https://yuannchao.github.io/Login_page/.
+[DEMO](https://yuannchao.github.io/Login_page/index.html)
